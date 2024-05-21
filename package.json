@@ -1,0 +1,17 @@
+{
+  "name": "moneyforward",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest",
+    "compile": "tsc",
+    "build": "npm run compile && npm run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest-fetch-mock": "^3.0.3"
+  }
+}
